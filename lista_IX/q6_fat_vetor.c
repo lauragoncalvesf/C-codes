@@ -16,11 +16,11 @@ int main(){
         }
         v2[i] = fat;
     }
-    printf("\nVetor v1\n");
+    printf("\nVetor v1:\n");
     for(i = 0; i <= 4; i++){
         printf("%i ", v1[i]);
     }
-    printf("\nVetor v2\n");
+    printf("\nVetor v2:\n");
     for(i = 0; i <= 4; i++){
         printf("%i ", v2[i]);
     }

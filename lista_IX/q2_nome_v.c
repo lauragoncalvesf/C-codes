@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main(){
-    char nome[50], i;
+    char nome[50], l;
     printf("Digite seu nome completo:");
     gets(nome); 
-    for(i = 0; nome[i] != '\0'; i++);
+    for(l = 0; nome[l] != '\0'; l++);
     printf("Olá, %s!\n", nome);
-    printf("A quantidade de caracteres em seu nome é: %i\n", i);
+    printf("A quantidade de caracteres em seu nome é: %i\n", l);
     return(0);
 }
 
